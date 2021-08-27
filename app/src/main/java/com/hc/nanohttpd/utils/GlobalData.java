@@ -1,4 +1,4 @@
-package com.bj.nanohttpd.utils;
+package com.hc.nanohttpd.utils;
 
 import java.util.ArrayList;
 

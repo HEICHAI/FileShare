@@ -1,4 +1,4 @@
-package com.bj.nanohttpd;
+package com.hc.nanohttpd;
 
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
@@ -19,19 +19,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-import com.bj.nanohttpd.http.HTTPService;
-import com.bj.nanohttpd.utils.FileUtils;
-import com.bj.nanohttpd.utils.SharedFile;
+import com.hc.nanohttpd.http.HTTPService;
+import com.hc.nanohttpd.utils.FileUtils;
+import com.hc.nanohttpd.utils.SharedFile;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
-import static com.bj.nanohttpd.utils.FileUtils.path2Name;
-import static com.bj.nanohttpd.utils.GlobalData.audioList;
-import static com.bj.nanohttpd.utils.GlobalData.fileList;
-import static com.bj.nanohttpd.utils.GlobalData.imageList;
-import static com.bj.nanohttpd.utils.GlobalData.videoList;
+import static com.hc.nanohttpd.utils.FileUtils.path2Name;
+import static com.hc.nanohttpd.utils.GlobalData.audioList;
+import static com.hc.nanohttpd.utils.GlobalData.fileList;
+import static com.hc.nanohttpd.utils.GlobalData.imageList;
+import static com.hc.nanohttpd.utils.GlobalData.videoList;
 
 public class MainActivity extends AppCompatActivity {
 

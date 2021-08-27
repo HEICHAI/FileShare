@@ -1,4 +1,4 @@
-package com.bj.nanohttpd;
+package com.hc.nanohttpd;
 
 import org.junit.Test;
 

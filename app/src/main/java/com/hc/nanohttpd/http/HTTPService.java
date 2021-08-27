@@ -1,4 +1,4 @@
-package com.bj.nanohttpd.http;
+package com.hc.nanohttpd.http;
 
 import android.app.Service;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import java.io.IOException;
 
-import static com.bj.nanohttpd.utils.GlobalData.DEFAULT_SERVER_PORT;
+import static com.hc.nanohttpd.utils.GlobalData.DEFAULT_SERVER_PORT;
 
 public class HTTPService extends Service {
 

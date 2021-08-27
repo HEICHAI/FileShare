@@ -1,13 +1,13 @@
-package com.bj.nanohttpd.http;
+package com.hc.nanohttpd.http;
 
-import com.bj.nanohttpd.utils.SharedFile;
+import com.hc.nanohttpd.utils.SharedFile;
 
 import fi.iki.elonen.NanoHTTPD;
 
-import static com.bj.nanohttpd.utils.GlobalData.audioList;
-import static com.bj.nanohttpd.utils.GlobalData.fileList;
-import static com.bj.nanohttpd.utils.GlobalData.imageList;
-import static com.bj.nanohttpd.utils.GlobalData.videoList;
+import static com.hc.nanohttpd.utils.GlobalData.audioList;
+import static com.hc.nanohttpd.utils.GlobalData.fileList;
+import static com.hc.nanohttpd.utils.GlobalData.imageList;
+import static com.hc.nanohttpd.utils.GlobalData.videoList;
 
 public class HTTPServer extends NanoHTTPD {
 

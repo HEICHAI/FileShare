@@ -1,4 +1,4 @@
-package com.bj.nanohttpd.utils;
+package com.hc.nanohttpd.utils;
 
 import android.content.ContentUris;
 import android.content.Context;
